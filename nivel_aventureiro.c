@@ -89,27 +89,7 @@ default:
  printf("opção invalida\n");
 break;
 }
-switch (jogador2){
 
-case 1:
- printf("Jogador: população \n");
-break;
-    
-case 2:
- printf("Jogador: área\n");
-break;
-    
-case 3:
- printf("Jogador: pib\n");
-break;
-    
-case 4:
- printf("Jogador: densidade\n");
-break;
-
-case 5:
- printf("Jogador: túrismo\n");
-break;
 
 default:
  printf("opção invalida\n");
@@ -125,12 +105,6 @@ if (jogador1 == jogador2)
            (jogador1 == 3 && PIB1 > PIB2) || 
            (jogador1 == 4 && densidade1 < densidade2) ||
            (jogador1 == 5 && turismo1 > turismo2) || 
-           (jogador2 == 1 && populacao2 > populacao1) || 
-           (jogador2 == 2 && area2 > area1) || 
-           (jogador2 == 3 && PIB2 > PIB1) || 
-           (jogador2 == 4 && densidade2 < densidade1) ||
-           (jogador2 == 5 && turismo2 > turismo1))
-{    
     printf("### Parabéns a carta 1 venceu! ###\n");
 } else {
     printf("### Parabéns a carta 2 venceu! ###\n");
